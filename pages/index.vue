@@ -10,11 +10,20 @@
         Vueand.me: Vue and Wine Hungary, September 27-29th 2019
       </template>
       <template #sub>
-        Is the latest initiative in the Vue.js ecosystem - a series of few days
+        The latest initiative in the Vue.js ecosystem - a series of few days
         long, cameral events in unique spots on the tourist map of Europe.
       </template>
       <template #action>
-        <TicketButton />
+        <TicketButton
+          class="mx-auto lg:mx-0 hover:underline bg-white
+        text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+        />
+      </template>
+      <template #right>
+        <Countdown />
+        <img
+          src="~/assets/images/undraw_finish_line_katerina_limpitsouni_xy20.svg"
+        />
       </template>
     </Hero>
 
@@ -67,7 +76,7 @@
 
     <section class=" border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <SectionTitle id="Teachers">
+        <SectionTitle id="teachers">
           Teachers
         </SectionTitle>
 
@@ -218,7 +227,7 @@
 
     <section class="bg-white border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <SectionTitle>
+        <SectionTitle id="curriculum">
           Curriculum
         </SectionTitle>
 
@@ -305,6 +314,77 @@
         </SectionContent>
       </div>
     </section>
+
+    <section class="bg-white border-b py-8">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <SectionTitle id="coc">
+          Code of Conduct
+        </SectionTitle>
+
+        <SectionContent>
+          <template #title>
+            No Harrassment
+          </template>
+          <template #default>
+            <p>
+              Harassment includes offensive verbal comments related to gender,
+              sexual orientation, disability, physical appearance, body size,
+              race, religion, sexual images in public spaces, deliberate
+              intimidation, stalking, following, harassing photography or
+              recording, sustained disruption of talks or other events,
+              inappropriate physical contact, and unwelcome sexual attention.
+              Participants asked to stop any harassing behavior are expected to
+              comply immediately.
+            </p>
+            <p class="mt-2">
+              Be careful in the words that you choose. Remember that sexist,
+              racist, and other exclusionary jokes can be offensive to those
+              around you. Excessive swearing and offensive jokes are not
+              appropriate for this event
+            </p>
+          </template>
+          <template #img>
+            <img src="~assets/images/undraw_work_chat_erdt.svg" />
+          </template>
+        </SectionContent>
+        <SectionContent>
+          <template #title>
+            Violation = No Refund
+          </template>
+          <template #default>
+            <p>
+              If a participant engages in behavior that violates this code of
+              conduct, the conference organizers may take any action they deem
+              appropriate, including warning the offender or expulsion from the
+              workshop with no refund.
+            </p>
+          </template>
+          <template #img> </template>
+        </SectionContent>
+      </div>
+    </section>
+
+    <section class="container mx-auto text-center py-6 mb-12">
+      <h1
+        class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"
+      >
+        What are you waiting for?
+      </h1>
+      <div class="w-full mb-4">
+        <div
+          class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"
+        ></div>
+      </div>
+
+      <h3 class="mt-4 mb-8 text-3xl block">
+        Join Vue and Me: Vue and Wine Hungary Edition
+      </h3>
+
+      <TicketButton
+        class="mx-auto mt-5 lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+      />
+    </section>
+    <Footer />
   </div>
 </template>
 
@@ -315,6 +395,8 @@ import Avatar from '@/components/Avatar'
 import SectionTitle from '@/components/SectionTitle'
 import SectionContent from '@/components/SectionContent'
 import ActionCard from '@/components/ActionCard'
+import Footer from '@/components/Footer'
+import Countdown from '@/components/Countdown'
 import TicketButton from '@/components/eventbrite/TicketButton'
 export default {
   components: {
@@ -324,7 +406,9 @@ export default {
     TicketButton,
     SectionTitle,
     SectionContent,
-    ActionCard
+    ActionCard,
+    Footer,
+    Countdown
   },
   data() {
     return {
@@ -341,6 +425,7 @@ export default {
       'scroll',
       this.scrollHandler
     )
+    this.scrollHandler()
   },
   methods: {
     scrollHandler() {
