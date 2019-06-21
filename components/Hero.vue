@@ -7,10 +7,7 @@
       <div
         class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
       >
-        <p class="uppercase tracking-loose w-full">
-          <slot name="intro" />
-        </p>
-        <h1 class="my-4 text-5xl font-bold leading-tight">
+        <h1 class="my-4 text-6xl font-bold leading-tight">
           <slot name="main" />
         </h1>
         <p class="leading-normal text-2xl mb-8">
