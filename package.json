@@ -1,7 +1,7 @@
 {
   "name": "vueandwine-website",
   "version": "1.0.0",
-  "description": "Website for vueandwine vueandme event",
+  "description": "Vue and me: The latest initiative in the Vue.js ecosystem - a series of few days long, cameral events in unique spots on the tourist map of Europe",
   "author": "vueandme",
   "private": true,
   "scripts": {
@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0"
+    "nuxt": "^2.4.0",
+    "vue-awesome-countdown": "^1.0.16"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",
