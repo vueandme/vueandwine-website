@@ -3,15 +3,16 @@
     <Navbar :scrolled="scrolled" />
 
     <Hero>
-      <template #intro>
-        Join us on the real Vue adventure!
-      </template>
       <template #main>
-        Vueand.me: Vue and Wine Hungary, September 27-29th 2019
+        <span class="text-dark-green">Vueand.me: <br />Vue and Wine</span><br />
+        <small>Hungary, September 27-29th 2019</small>
       </template>
       <template #sub>
-        The latest initiative in the Vue.js ecosystem - a series of few days
-        long, cameral events in unique spots on the tourist map of Europe.
+        <p class="pb-4">The latest initiative in the Vue.js ecosystem.</p>
+        <p>
+          A series of few days long, cameral events in unique spots on the
+          tourist map of Europe.
+        </p>
       </template>
       <template #action>
         <TicketButton
@@ -30,18 +31,22 @@
     <section class="bg-white border-b py-8">
       <div class="container max-w-5xl mx-auto m-8">
         <SectionTitle id="TLDR">
-          TLDR
+          The real Vue adventure
         </SectionTitle>
         <SectionContent>
           <template #title>
             Intimate learning experience
           </template>
           <template #default>
-            Intense workshops in small groups, led by the top community
-            authorities - library authors, content creators and Vue.js Core Team
-            members. We'll focus on intermediate and advanced level features,
-            from both core Vue libraries and wider ecosystem like Nuxt or
-            Vue-Apollo.
+            <p class="pb-4">
+              Intense workshops in small groups, led by the top community
+              authorities - library authors, content creators and Vue.js Core
+              Team members.
+            </p>
+            <p>
+              We'll focus on intermediate and advanced level features, from both
+              core Vue libraries and wider ecosystem like Nuxt or Vue-Apollo.
+            </p>
           </template>
           <template #img>
             <img src="~assets/images/undraw_teaching_f1cm.svg" />
@@ -49,11 +54,18 @@
         </SectionContent>
         <SectionContent reverse>
           <template #title>
-            Have fun
+            Quality recreation time
           </template>
           <template>
-            End it with hand-picked free-time activities, taking advantage of
-            the best of what our destination has to offer.
+            <p class="pb-4">
+              End it with hand-picked leisure activities, taking advantage of
+              the best of what our destination has to offer.
+            </p>
+            <p>
+              For the first edition, the Vue and Wine event will take us to
+              Eger, a hungarian vineyard paradise. Let's make unforgettable
+              memories and experience something magic.
+            </p>
           </template>
           <template #img>
             <img src="~assets/images/undraw_having_fun_iais.svg" />
@@ -61,11 +73,13 @@
         </SectionContent>
         <SectionContent>
           <template #title>
-            Repeat
+            Three extraordinary days
           </template>
           <template>
-            Then put it on repeat! There's still so much knowledge to share and
-            so much fun to have together next day.
+            <p>
+              Then put it on repeat! There's still so much knowledge to share
+              and so much fun to have together next day.
+            </p>
           </template>
           <template #img>
             <img src="~assets/images/undraw_in_no_time_6igu.svg" />
@@ -89,25 +103,27 @@
             </Avatar>
           </template>
           <template>
-            Natalia is a senior front-end developer at Gitlab and a Vue.js Core
-            Team member.
-            <br />
-            <br />
-            She started getting active in Vue.js community as a CTO of Vue
-            Vixen, where she wrote their workshops program from scratch. Now
-            she's running advanced workshops on her own accord on events such as
-            VueConf US or VueConf Toronto.
-            <br />
-            <br />
-            Her technical talks were among the most praised at conferences as
-            big as VueJS Amsterdam or JSHeroes. Same with her tutorials, known
-            for clarity and interesting choice of non-trivial topics.
-            <br />
-            <br />
-            Let's add a great effort on official Vue documentation, both with
-            already existing and upcoming chapters and we can see why she
-            secured a well deserved place in the Vue.js Core Team in less than a
-            year.
+            <p class="pb-4">
+              Natalia is a senior front-end developer at Gitlab and a Vue.js
+              Core Team member.
+            </p>
+            <p class="pb-4">
+              She started getting active in Vue.js community as a CTO of Vue
+              Vixen, where she wrote their workshops program from scratch. Now
+              she's running advanced workshops on her own accord on events such
+              as VueConf US or VueConf Toronto.
+            </p>
+            <p class="pb-4">
+              Her technical talks were among the most praised at conferences as
+              big as VueJS Amsterdam or JSHeroes. Same with her tutorials, known
+              for clarity and interesting choice of non-trivial topics.
+            </p>
+            <p class="pb-4">
+              Let's add a great effort on official Vue documentation, both with
+              already existing and upcoming chapters and we can see why she
+              secured a well deserved place in the Vue.js Core Team in less than
+              a year.
+            </p>
           </template>
           <template #actions>
             <a
@@ -128,14 +144,16 @@
             </Avatar>
           </template>
           <template>
-            Nicolò is one of the masterminds from Budapest-based company
-            Pulilab, standing behind the VuePeople.org project and the
-            successful Vue-Budapest meetups.
-            <br />
-            <br />
-            Don Nico, as we call him, is also the maintainer of Vue-Leaflet
-            integration, a love-deserving map solution for Vue.js. Lately you
-            could have seen him talking on VueDay conference in Verona, Italy.
+            <p class="pb-4">
+              Nicolò is one of the masterminds from Budapest-based company
+              Pulilab, standing behind the VuePeople.org project and the
+              successful Vue-Budapest meetups.
+            </p>
+            <p class="pb-4">
+              Don Nico, as we call him, is also the maintainer of Vue-Leaflet
+              integration, a love-deserving map solution for Vue.js. Lately you
+              could have seen him talking on VueDay conference in Verona, Italy.
+            </p>
           </template>
           <template #actions>
             <a
@@ -156,20 +174,22 @@
             </Avatar>
           </template>
           <template>
-            Gusto, because that's how he's known among other developers, is a
-            Vue.js Core Team member taking care of the community around the
-            framework. As an admin of the official Vue.js chat, he has answered
-            countless questions from Vue users.
-            <br />
-            <br />
-            As a part of his Tour de Vue trip, he's meeting with Vue developers
-            around the world, from Morocco to India, to share the love for the
-            framework and offer help if needed, but also to learn about their
-            daily life experiences.
-            <br />
-            <br />
-            If you want to ask about the community or any part of the Vue
-            ecosystem, he's the one to approach.
+            <p class="pb-4">
+              Gusto, because that's how he's known among other developers, is a
+              Vue.js Core Team member taking care of the community around the
+              framework. As an admin of the official Vue.js chat, he has
+              answered countless questions from Vue users.
+            </p>
+            <p class="pb-4">
+              As a part of his Tour de Vue trip, he's meeting with Vue
+              developers around the world, from Morocco to India, to share the
+              love for the framework and offer help if needed, but also to learn
+              about their daily life experiences.
+            </p>
+            <p class="pb-4">
+              If you want to ask about the community or any part of the Vue
+              ecosystem, he's the one to approach.
+            </p>
           </template>
           <template #actions>
             <a
@@ -186,49 +206,8 @@
 
     <section class="bg-white border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <SectionTitle>
-          A word from Gusto
-        </SectionTitle>
-
-        <SectionContent>
-          <template #title>
-            Vuejs adventure
-          </template>
-          <template #default>
-            What I've always loved about Vue.js is how intimate of an experience
-            we can get with it. How the community sticks together - be it
-            regular developers, content creators, library authors or Core Team
-            members. How we share our ideas and learn from each other on daily
-            basis, in a friendly atmosphere. Not only online or on big
-            conferences, but in everyday life situations.
-            <br />
-            <br />
-            Some of the top moments of my Vue adventures were discussing Vue
-            source code in the middle of a visit in a famous chocolate
-            manufacture in Ukraine or watching ice hockey with fellow Vue
-            developers in the legendary Wayne Gretzky Bar in Canada, flooding
-            our table with the best local specialties.
-            <br />
-            <br />
-            That's the experience we want to share with you. To provide an
-            environment in which we can both learn from each other and enjoy the
-            time together, to make a deeper connection between us.
-            <br />
-            <br />
-            Vue and Wine in Eger, Hungary is our first event and I can't wait to
-            meet you there. See you at the place!
-          </template>
-          <template #img>
-            <img src="~assets/images/undraw_adventure_4hum.svg" />
-          </template>
-        </SectionContent>
-      </div>
-    </section>
-
-    <section class="bg-white border-b py-8">
-      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <SectionTitle id="curriculum">
-          Curriculum
+        <SectionTitle id="workshops">
+          Workshops
         </SectionTitle>
 
         <SectionContent>
@@ -236,10 +215,12 @@
             Natalia: GraphQL with Vue-Apollo
           </template>
           <template #default>
-            GraphQL is one of the most trendy technologies in the webdev world
-            nowadays. The workshop focuses on using GraphQL at the frontend and
-            specifically in Vue applications.
-            <span class="block py-2 font-bold">We'll learn:</span>
+            <p class="pb-4">
+              GraphQL is one of the most trendy technologies in the webdev world
+              nowadays. The workshop focuses on using GraphQL at the frontend
+              and specifically in Vue applications.
+            </p>
+            <p class="pb-4 py-2 font-bold">We'll learn:</p>
             <ul class="list-disc">
               <li>How to work with GraphQL schemas and write mutations</li>
               <li>How to use Apollo client and devtools</li>
@@ -317,49 +298,41 @@
 
     <section class="bg-white border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <SectionTitle id="coc">
-          Code of Conduct
+        <SectionTitle>
+          A word from Gusto
         </SectionTitle>
 
         <SectionContent>
-          <template #title>
-            No Harrassment
-          </template>
           <template #default>
-            <p>
-              Harassment includes offensive verbal comments related to gender,
-              sexual orientation, disability, physical appearance, body size,
-              race, religion, sexual images in public spaces, deliberate
-              intimidation, stalking, following, harassing photography or
-              recording, sustained disruption of talks or other events,
-              inappropriate physical contact, and unwelcome sexual attention.
-              Participants asked to stop any harassing behavior are expected to
-              comply immediately.
+            <p class="pb-4">
+              What I've always loved about Vue.js is how intimate of an
+              experience we can get with it. How the community sticks together -
+              be it regular developers, content creators, library authors or
+              Core Team members. How we share our ideas and learn from each
+              other on daily basis, in a friendly atmosphere. Not only online or
+              on big conferences, but in everyday life situations.
             </p>
-            <p class="mt-2">
-              Be careful in the words that you choose. Remember that sexist,
-              racist, and other exclusionary jokes can be offensive to those
-              around you. Excessive swearing and offensive jokes are not
-              appropriate for this event
+            <p class="pb-4">
+              Some of the top moments of my Vue adventures were a dance battle
+              between the core team members in the heart of Budapest, discussing
+              Vue source code in the middle of a visit in a famous chocolate
+              manufacture in Ukraine or watching ice hockey with fellow Vue
+              developers in the legendary Wayne Gretzky Bar in Canada, flooding
+              our table with the best local specialties.
+            </p>
+            <p class="pb-4">
+              That's the experience we want to share with you. To provide an
+              environment in which we can both learn from each other and enjoy
+              the time together, to make a deeper connection between us.
+            </p>
+            <p class="pb-4">
+              Vue and Wine in Eger, Hungary is our first event and I can't wait
+              to meet you there. See you at the place!
             </p>
           </template>
           <template #img>
-            <img src="~assets/images/undraw_work_chat_erdt.svg" />
+            <img src="~assets/images/undraw_adventure_4hum.svg" />
           </template>
-        </SectionContent>
-        <SectionContent>
-          <template #title>
-            Violation = No Refund
-          </template>
-          <template #default>
-            <p>
-              If a participant engages in behavior that violates this code of
-              conduct, the conference organizers may take any action they deem
-              appropriate, including warning the offender or expulsion from the
-              workshop with no refund.
-            </p>
-          </template>
-          <template #img> </template>
         </SectionContent>
       </div>
     </section>
@@ -368,7 +341,7 @@
       <h1
         class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"
       >
-        What are you waiting for?
+        Join us on the real Vue adventure!
       </h1>
       <div class="w-full mb-4">
         <div
@@ -377,7 +350,7 @@
       </div>
 
       <h3 class="mt-4 mb-8 text-3xl block">
-        Join Vue and Me: Vue and Wine Hungary Edition
+        Vue and Me: Vue and Wine Hungary Edition
       </h3>
 
       <TicketButton
