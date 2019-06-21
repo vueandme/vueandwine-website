@@ -20,17 +20,19 @@
 
     <section class="bg-white border-b py-8">
       <div class="container max-w-5xl mx-auto m-8">
-        <SectionTitle>
+        <SectionTitle id="TLDR">
           TLDR
         </SectionTitle>
         <SectionContent>
           <template #title>
-            Learn
+            Intimate learning experience
           </template>
           <template #default>
-            Start a day with an intimate learning experience - intense workshops
-            in small groups, led by the top community authorities - library
-            authors, content creators and Vue.js Core Team members.
+            Intense workshops in small groups, led by the top community
+            authorities - library authors, content creators and Vue.js Core Team
+            members. We'll focus on intermediate and advanced level features,
+            from both core Vue libraries and wider ecosystem like Nuxt or
+            Vue-Apollo.
           </template>
           <template #img>
             <img src="~assets/images/undraw_teaching_f1cm.svg" />
@@ -63,9 +65,9 @@
       </div>
     </section>
 
-    <section class="bg-white border-b py-8">
+    <section class=" border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
-        <SectionTitle>
+        <SectionTitle id="Teachers">
           Teachers
         </SectionTitle>
 
@@ -113,7 +115,7 @@
             <Avatar
               src="https://avatars2.githubusercontent.com/u/5890166?s=460&v=4"
             >
-              Nicolò Mezzopera (Italy)
+              Nicolò Maria Mezzopera (Italy)
             </Avatar>
           </template>
           <template>
@@ -173,45 +175,142 @@
       </div>
     </section>
 
-    <!-- <Hero>
-      <Quote>
-        <p>
-          What I've always loved about Vue.js is how intimate of an experience
-          we can get with it. How the community sticks together - be it regular
-          developers, content creators, library authors or Core Team members.
-          How we share our ideas and learn from each other on daily basis, in a
-          friendly atmosphere. Not only online or on big conferences, but in
-          everyday life situations.
-        </p>
-        <p class="my-4">
-          Some of the top moments of my Vue adventures were discussing Vue
-          source code in the middle of a visit in a famous chocolate manufacture
-          in Ukraine or watching ice hockey with fellow Vue developers in the
-          legendary Wayne Gretzky Bar in Canada, flooding our table with the
-          best local specialties.
-        </p>
-        <p>
-          That's the experience we want to share with you. To provide an
-          environment in which we can both learn from each other and enjoy the
-          time together, to make a deeper connection between us.
-        </p>
-        <p class="my-4">
-          Vue and Wine in Eger, Hungary is our first event and I can't wait to
-          meet you there. See you at the place!
-        </p>
-        <template #footer>
-          Darek "Gusto" Wędrychowski
-        </template>
-      </Quote>
-    </Hero> -->
+    <section class="bg-white border-b py-8">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <SectionTitle>
+          A word from Gusto
+        </SectionTitle>
+
+        <SectionContent>
+          <template #title>
+            Vuejs adventure
+          </template>
+          <template #default>
+            What I've always loved about Vue.js is how intimate of an experience
+            we can get with it. How the community sticks together - be it
+            regular developers, content creators, library authors or Core Team
+            members. How we share our ideas and learn from each other on daily
+            basis, in a friendly atmosphere. Not only online or on big
+            conferences, but in everyday life situations.
+            <br />
+            <br />
+            Some of the top moments of my Vue adventures were discussing Vue
+            source code in the middle of a visit in a famous chocolate
+            manufacture in Ukraine or watching ice hockey with fellow Vue
+            developers in the legendary Wayne Gretzky Bar in Canada, flooding
+            our table with the best local specialties.
+            <br />
+            <br />
+            That's the experience we want to share with you. To provide an
+            environment in which we can both learn from each other and enjoy the
+            time together, to make a deeper connection between us.
+            <br />
+            <br />
+            Vue and Wine in Eger, Hungary is our first event and I can't wait to
+            meet you there. See you at the place!
+          </template>
+          <template #img>
+            <img src="~assets/images/undraw_adventure_4hum.svg" />
+          </template>
+        </SectionContent>
+      </div>
+    </section>
+
+    <section class="bg-white border-b py-8">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <SectionTitle>
+          Curriculum
+        </SectionTitle>
+
+        <SectionContent>
+          <template #title>
+            Natalia: GraphQL with Vue-Apollo
+          </template>
+          <template #default>
+            GraphQL is one of the most trendy technologies in the webdev world
+            nowadays. The workshop focuses on using GraphQL at the frontend and
+            specifically in Vue applications.
+            <span class="block py-2 font-bold">We'll learn:</span>
+            <ul class="list-disc">
+              <li>How to work with GraphQL schemas and write mutations</li>
+              <li>How to use Apollo client and devtools</li>
+              <li>How to setup, configure and use Vue</li>
+              <li>Apollo integration</li>
+              <li>How to use Apollo for Vue state management</li>
+              <li>
+                best practices (loading and error states, naming, composing
+                schema etc)
+              </li>
+              <li>a selection of more advanced features</li>
+            </ul>
+          </template>
+          <template #img>
+            <img src="~assets/images/undraw_setup_wizard_r6mr.svg" />
+          </template>
+        </SectionContent>
+
+        <SectionContent reverse>
+          <template #title>
+            Nicolò: Advanced components features
+          </template>
+          <template #default>
+            There's much more to writing the components than initially meets the
+            eye. Nicolo takes us on a trip around more advanced features and
+            tricks that we can take advantage of.
+            <span class="block py-2 font-bold">We'll learn:</span>
+            <ul class="list-disc">
+              <li>
+                Different ways to compose the components (scoped slots, higher
+                order components etc)
+              </li>
+              <li>
+                How to approach different component use cases (layouts, wrappers
+                etc)
+              </li>
+              <li>How to use common performance optimizations</li>
+              <li>How and when to use render functions</li>
+              <li>How and when to use functional components</li>
+              <li>Best practices regarding components composition</li>
+            </ul>
+          </template>
+          <template #img>
+            <img src="~assets/images/undraw_deliveries_131a.svg" />
+          </template>
+        </SectionContent>
+
+        <SectionContent>
+          <template #title>
+            Gusto: Big projects with Vue.js
+          </template>
+          <template #default>
+            Bigger projects mean bigger requirements. With Gusto, we'll see how
+            to enhance our apps with testing and some of the more advanced
+            features of other core libraries.
+            <span class="block py-2 font-bold">We'll learn:</span>
+            <ul class="list-disc">
+              <li>Basics and best practices of testing Vue components</li>
+              <li>How to enhance Vue with custom plugins</li>
+              <li>How to use vue-router navigation guards</li>
+              <li>How to add internalization to our projects</li>
+              <li>How to write Vuex modules and plugins</li>
+              <li>
+                Best practices regarding state management and application
+                structure
+              </li>
+            </ul>
+          </template>
+          <template #img>
+            <img src="~assets/images/undraw_business_analytics_l92d.svg" />
+          </template>
+        </SectionContent>
+      </div>
+    </section>
   </div>
 </template>
 
 <script>
 import Hero from '@/components/Hero'
-// import Box from '@/components/Box'
 import Navbar from '@/components/Navbar'
-// import Quote from '@/components/Quote'
 import Avatar from '@/components/Avatar'
 import SectionTitle from '@/components/SectionTitle'
 import SectionContent from '@/components/SectionContent'
@@ -220,9 +319,7 @@ import TicketButton from '@/components/eventbrite/TicketButton'
 export default {
   components: {
     Hero,
-    // Box,
     Navbar,
-    // Quote,
     Avatar,
     TicketButton,
     SectionTitle,
