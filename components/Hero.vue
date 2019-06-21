@@ -20,22 +20,15 @@
         <slot name="action"> </slot>
       </div>
       <!--Right Col-->
-      <div class="w-full md:w-3/5 py-6 text-center">
-        <img class="w-full md:w-4/5 z-50" :src="heroImg" />
+      <div class="w-full md:w-3/5 py-6 text-center self-start">
+        <slot name="right" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {
-  props: {
-    heroImg: {
-      type: String,
-      default: null
-    }
-  }
-}
+export default {}
 </script>
 
 <style></style>
