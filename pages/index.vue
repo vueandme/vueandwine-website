@@ -1,42 +1,179 @@
 <template>
   <div>
-    <Navbar />
+    <Navbar :scrolled="scrolled" />
+
     <Hero>
-      <div class="flex flex-col w-full">
-        <Box class="self-start">
-          <p>
+      <template #intro>
+        Join us on the real Vue adventure!
+      </template>
+      <template #main>
+        Vueand.me: Vue and Wine Hungary, September 27-29th 2019
+      </template>
+      <template #sub>
+        Is the latest initiative in the Vue.js ecosystem - a series of few days
+        long, cameral events in unique spots on the tourist map of Europe.
+      </template>
+      <template #action>
+        <TicketButton />
+      </template>
+    </Hero>
+
+    <section class="bg-white border-b py-8">
+      <div class="container max-w-5xl mx-auto m-8">
+        <SectionTitle>
+          TLDR
+        </SectionTitle>
+        <SectionContent>
+          <template #title>
+            Learn
+          </template>
+          <template #default>
             Start a day with an intimate learning experience - intense workshops
             in small groups, led by the top community authorities - library
             authors, content creators and Vue.js Core Team members.
-          </p>
-        </Box>
-        <Box class="self-center">
-          <p>
+          </template>
+          <template #img>
+            <img src="~assets/images/undraw_teaching_f1cm.svg" />
+          </template>
+        </SectionContent>
+        <SectionContent reverse>
+          <template #title>
+            Have fun
+          </template>
+          <template>
             End it with hand-picked free-time activities, taking advantage of
             the best of what our destination has to offer.
-          </p>
-        </Box>
-        <Box class="self-end">
-          <p>
+          </template>
+          <template #img>
+            <img src="~assets/images/undraw_having_fun_iais.svg" />
+          </template>
+        </SectionContent>
+        <SectionContent>
+          <template #title>
+            Repeat
+          </template>
+          <template>
             Then put it on repeat! There's still so much knowledge to share and
             so much fun to have together next day.
-          </p>
-        </Box>
+          </template>
+          <template #img>
+            <img src="~assets/images/undraw_in_no_time_6igu.svg" />
+          </template>
+        </SectionContent>
       </div>
-    </Hero>
-    <Hero>
-      <div class="w-full flex flex-col justify-start items-center">
-        <h2 class="text-4xl">
-          Join us on the real Vue adventure!
-        </h2>
-        <h3 class="text-lg my-4">
-          Vueand.me: Vue and Wine Hungary, September 27-29th 2019
-        </h3>
-        <TicketButton />
-      </div>
-    </Hero>
+    </section>
 
-    <Hero>
+    <section class="bg-white border-b py-8">
+      <div class="container mx-auto flex flex-wrap pt-4 pb-12">
+        <SectionTitle>
+          Teachers
+        </SectionTitle>
+
+        <ActionCard>
+          <template #title>
+            <Avatar
+              src="https://avatars0.githubusercontent.com/u/18719025?s=460&v=4"
+            >
+              Natalia Tepluhina (Ukraine)
+            </Avatar>
+          </template>
+          <template>
+            Natalia is a senior front-end developer at Gitlab and a Vue.js Core
+            Team member.
+            <br />
+            <br />
+            She started getting active in Vue.js community as a CTO of Vue
+            Vixen, where she wrote their workshops program from scratch. Now
+            she's running advanced workshops on her own accord on events such as
+            VueConf US or VueConf Toronto.
+            <br />
+            <br />
+            Her technical talks were among the most praised at conferences as
+            big as VueJS Amsterdam or JSHeroes. Same with her tutorials, known
+            for clarity and interesting choice of non-trivial topics.
+            <br />
+            <br />
+            Let's add a great effort on official Vue documentation, both with
+            already existing and upcoming chapters and we can see why she
+            secured a well deserved place in the Vue.js Core Team in less than a
+            year.
+          </template>
+          <template #actions>
+            <a
+              class="text-gray-800 flex items-center"
+              href="https://twitter.com/N_Tepluhina"
+              target="_blank"
+            >
+              <img src="~/assets/images/icons8-twitter.svg" />@N_Tepluhina</a
+            >
+          </template>
+        </ActionCard>
+        <ActionCard>
+          <template #title>
+            <Avatar
+              src="https://avatars2.githubusercontent.com/u/5890166?s=460&v=4"
+            >
+              Nicolò Mezzopera (Italy)
+            </Avatar>
+          </template>
+          <template>
+            Nicolò is one of the masterminds from Budapest-based company
+            Pulilab, standing behind the VuePeople.org project and the
+            successful Vue-Budapest meetups.
+            <br />
+            <br />
+            Don Nico, as we call him, is also the maintainer of Vue-Leaflet
+            integration, a love-deserving map solution for Vue.js. Lately you
+            could have seen him talking on VueDay conference in Verona, Italy.
+          </template>
+          <template #actions>
+            <a
+              class="text-gray-800 flex items-center"
+              href="https://twitter.com/DonNicoJs"
+              target="_blank"
+            >
+              <img src="~/assets/images/icons8-twitter.svg" />@DonNicoJs</a
+            >
+          </template>
+        </ActionCard>
+        <ActionCard>
+          <template #title>
+            <Avatar
+              src="https://avatars0.githubusercontent.com/u/25644507?s=460&v=4"
+            >
+              Dariusz Wędrychowski (Poland)
+            </Avatar>
+          </template>
+          <template>
+            Gusto, because that's how he's known among other developers, is a
+            Vue.js Core Team member taking care of the community around the
+            framework. As an admin of the official Vue.js chat, he has answered
+            countless questions from Vue users.
+            <br />
+            <br />
+            As a part of his Tour de Vue trip, he's meeting with Vue developers
+            around the world, from Morocco to India, to share the love for the
+            framework and offer help if needed, but also to learn about their
+            daily life experiences.
+            <br />
+            <br />
+            If you want to ask about the community or any part of the Vue
+            ecosystem, he's the one to approach.
+          </template>
+          <template #actions>
+            <a
+              class="text-gray-800 flex items-center"
+              href="https://twitter.com/gustojs"
+              target="_blank"
+            >
+              <img src="~/assets/images/icons8-twitter.svg" />@gustojs</a
+            >
+          </template>
+        </ActionCard>
+      </div>
+    </section>
+
+    <!-- <Hero>
       <Quote>
         <p>
           What I've always loved about Vue.js is how intimate of an experience
@@ -66,61 +203,52 @@
           Darek "Gusto" Wędrychowski
         </template>
       </Quote>
-    </Hero>
-
-    <Hero>
-      <template #header>
-        Teachers
-      </template>
-      <div class="w-full flex flex-col">
-        <Teacher
-          avatar="https://avatars0.githubusercontent.com/u/18719025?s=460&v=4"
-        >
-          <template #title>
-            Natalia Tepluhina (Ukraine)
-          </template>
-          <template #default>
-            <p>
-              Natalia is a senior front-end developer at Gitlab and a Vue.js
-              Core Team member.
-            </p>
-            <p class="my-2">
-              She started getting active in Vue.js community as a CTO of Vue
-              Vixen, where she wrote their workshops program from scratch. Now
-              she's running advanced workshops on her own accord on events such
-              as VueConf US or VueConf Toronto. Her technical talks were among
-              the most praised at conferences as big as VueJS Amsterdam or
-              JSHeroes. Same with her tutorials, known for clarity and
-              interesting choice of non-trivial topics.
-            </p>
-            <p>
-              Let's add a great effort on official Vue documentation, both with
-              already existing and upcoming chapters and we can see why she
-              secured a well deserved place in the Vue.js Core Team in less than
-              a year.
-            </p>
-          </template>
-        </Teacher>
-      </div>
-    </Hero>
+    </Hero> -->
   </div>
 </template>
 
 <script>
 import Hero from '@/components/Hero'
-import Box from '@/components/Box'
+// import Box from '@/components/Box'
 import Navbar from '@/components/Navbar'
-import Quote from '@/components/Quote'
-import Teacher from '@/components/Teacher'
+// import Quote from '@/components/Quote'
+import Avatar from '@/components/Avatar'
+import SectionTitle from '@/components/SectionTitle'
+import SectionContent from '@/components/SectionContent'
+import ActionCard from '@/components/ActionCard'
 import TicketButton from '@/components/eventbrite/TicketButton'
 export default {
   components: {
     Hero,
-    Box,
+    // Box,
     Navbar,
-    Quote,
-    Teacher,
-    TicketButton
+    // Quote,
+    Avatar,
+    TicketButton,
+    SectionTitle,
+    SectionContent,
+    ActionCard
+  },
+  data() {
+    return {
+      scrolled: false
+    }
+  },
+  beforeDestroy() {
+    if (this._scrollListener) {
+      window.document.removeEventListener('scroll', this.scrollHandler)
+    }
+  },
+  mounted() {
+    this._scrollListener = window.document.addEventListener(
+      'scroll',
+      this.scrollHandler
+    )
+  },
+  methods: {
+    scrollHandler() {
+      this.scrolled = window.scrollY > 10
+    }
   }
 }
 </script>
