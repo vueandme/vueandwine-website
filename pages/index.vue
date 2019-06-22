@@ -104,12 +104,12 @@
           </template>
           <template>
             <p class="pb-4">
-              Natalia is a senior front-end developer at Gitlab and a Vue.js
+              Natalia is a senior front-end engineer at Gitlab and a Vue.js
               Core Team member.
             </p>
             <p class="pb-4">
               She started getting active in Vue.js community as a CTO of Vue
-              Vixen, where she wrote their workshops program from scratch. Now
+              Vixens, where she wrote their workshops program from scratch. Now
               she's running advanced workshops on her own accord on events such
               as VueConf US or VueConf Toronto.
             </p>
