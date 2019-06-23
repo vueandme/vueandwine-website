@@ -104,8 +104,8 @@
           </template>
           <template>
             <p class="pb-4">
-              Natalia is a senior front-end engineer at Gitlab and a Vue.js
-              Core Team member.
+              Natalia is a senior front-end engineer at Gitlab and a Vue.js Core
+              Team member.
             </p>
             <p class="pb-4">
               She started getting active in Vue.js community as a CTO of Vue
@@ -228,10 +228,10 @@
               <li>Apollo integration</li>
               <li>How to use Apollo for Vue state management</li>
               <li>
-                best practices (loading and error states, naming, composing
+                Best practices (loading and error states, naming, composing
                 schema etc)
               </li>
-              <li>a selection of more advanced features</li>
+              <li>A selection of more advanced features</li>
             </ul>
           </template>
           <template #img>
