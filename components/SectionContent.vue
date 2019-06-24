@@ -1,7 +1,7 @@
 <template>
   <div
     :class="{
-      'flex flex-wrap items-center': true,
+      'flex flex-wrap items-center justify-center': true,
       'flex-row-reverse ': reverse
     }"
   >
