@@ -5,7 +5,7 @@
         <p class="text-5xl">{{ addLabel(timeObj.d, 'Day') }}</p>
 
         <p class="text-4xl">{{ addLabel(timeObj.h, 'Hour') }}</p>
-        <p class="text-3xl">{{ addLabel(timeObj.m, 'Minutes') }}</p>
+        <p class="text-3xl">{{ addLabel(timeObj.m, 'Minute') }}</p>
         <p class="text-2xl">{{ addLabel(timeObj.s, 'Second') }}</p>
       </span>
     </vac>
