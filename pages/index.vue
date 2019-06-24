@@ -24,6 +24,7 @@
         <Countdown />
         <img
           src="~/assets/images/undraw_finish_line_katerina_limpitsouni_xy20.svg"
+          alt="race finish line"
         />
       </template>
     </Hero>
@@ -49,7 +50,7 @@
             </p>
           </template>
           <template #img>
-            <img src="~assets/images/undraw_teaching_f1cm.svg" />
+            <img src="~assets/images/undraw_teaching_f1cm.svg" alt="teaching" />
           </template>
         </SectionContent>
         <SectionContent reverse>
@@ -68,7 +69,10 @@
             </p>
           </template>
           <template #img>
-            <img src="~assets/images/undraw_having_fun_iais.svg" />
+            <img
+              src="~assets/images/undraw_having_fun_iais.svg"
+              alt="fun and drinks"
+            />
           </template>
         </SectionContent>
         <SectionContent>
@@ -82,7 +86,10 @@
             </p>
           </template>
           <template #img>
-            <img src="~assets/images/undraw_in_no_time_6igu.svg" />
+            <img
+              src="~assets/images/undraw_in_no_time_6igu.svg"
+              alt="time clock"
+            />
           </template>
         </SectionContent>
       </div>
@@ -131,7 +138,10 @@
               href="https://twitter.com/N_Tepluhina"
               target="_blank"
             >
-              <img src="~/assets/images/icons8-twitter.svg" />@N_Tepluhina</a
+              <img
+                src="~/assets/images/icons8-twitter.svg"
+                alt="twitter-icon"
+              />@N_Tepluhina</a
             >
           </template>
         </ActionCard>
@@ -161,7 +171,10 @@
               href="https://twitter.com/DonNicoJs"
               target="_blank"
             >
-              <img src="~/assets/images/icons8-twitter.svg" />@DonNicoJs</a
+              <img
+                src="~/assets/images/icons8-twitter.svg"
+                alt="twitter-icon"
+              />@DonNicoJs</a
             >
           </template>
         </ActionCard>
@@ -197,7 +210,10 @@
               href="https://twitter.com/gustojs"
               target="_blank"
             >
-              <img src="~/assets/images/icons8-twitter.svg" />@gustojs</a
+              <img
+                src="~/assets/images/icons8-twitter.svg"
+                alt="twitter-icon"
+              />@gustojs</a
             >
           </template>
         </ActionCard>
@@ -235,7 +251,10 @@
             </ul>
           </template>
           <template #img>
-            <img src="~assets/images/undraw_setup_wizard_r6mr.svg" />
+            <img
+              src="~assets/images/undraw_setup_wizard_r6mr.svg"
+              alt="setup wizard"
+            />
           </template>
         </SectionContent>
 
@@ -264,7 +283,10 @@
             </ul>
           </template>
           <template #img>
-            <img src="~assets/images/undraw_deliveries_131a.svg" />
+            <img
+              src="~assets/images/undraw_deliveries_131a.svg"
+              alt="package and deliveries"
+            />
           </template>
         </SectionContent>
 
@@ -290,7 +312,10 @@
             </ul>
           </template>
           <template #img>
-            <img src="~assets/images/undraw_business_analytics_l92d.svg" />
+            <img
+              src="~assets/images/undraw_business_analytics_l92d.svg"
+              alt="business analytics"
+            />
           </template>
         </SectionContent>
       </div>
@@ -331,7 +356,10 @@
             </p>
           </template>
           <template #img>
-            <img src="~assets/images/undraw_adventure_4hum.svg" />
+            <img
+              src="~assets/images/undraw_adventure_4hum.svg"
+              alt="vue adventure"
+            />
           </template>
         </SectionContent>
       </div>
