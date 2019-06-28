@@ -5,7 +5,7 @@
       'flex-row-reverse ': reverse
     }"
   >
-    <div class="w-5/6 sm:w-1/2 p-6">
+    <div :class="fullsize ? 'w-full p-6' : 'w-5/6 sm:w-1/2 p-6'">
       <h3 class="text-3xl text-gray-800 font-bold leading-none mb-3">
         <slot name="title"></slot>
       </h3>
@@ -23,6 +23,10 @@
 export default {
   props: {
     reverse: {
+      type: Boolean,
+      default: false
+    },
+    fullsize: {
       type: Boolean,
       default: false
     }

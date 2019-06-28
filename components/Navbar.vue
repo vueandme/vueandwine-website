@@ -17,7 +17,7 @@
           }"
           href="#"
         >
-          <span class="text-dark-green">VueAndMe:</span> Vue and Wine
+          <span class="text-dark-green">Vue And Me:</span> Vue and Wine
         </a>
       </div>
 

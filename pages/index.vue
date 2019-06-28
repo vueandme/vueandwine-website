@@ -81,6 +81,101 @@
       </div>
     </section>
 
+    <section class="bg-white border-b py-8">
+      <div class="container max-w-5xl mx-auto m-8">
+        <SectionTitle id="TLDR">
+          About the event
+        </SectionTitle>
+        <SectionContent fullsize>
+          <h4 class="text-2xl pb-4 text-center">
+            Follow us on
+            <strong><a href="https://twitter/vueandme">Twitter</a></strong> for
+            the latest updates!
+          </h4>
+
+          <h4 class="font-bold pb-4">The concept</h4>
+          <template>
+            <p class="pb-4">
+              Vue and Me is a series of events in each the attendees visit a
+              specific region in Europe together, to take part in both Vue
+              workshops and side activities. In opposite to big conferences, we
+              meet in a limited group of 30-40 developers, to provide more
+              intimate experience, where we can all get to know and support each
+              other.
+            </p>
+            <p class="pb-4">
+              It's also a consulting opportunity. We've all got expertize on
+              different areas, so let's take advantage of it. Ask any questions
+              you want, show us what you work on, discuss your ideas with both
+              the teachers and other attendees.
+            </p>
+            <h4 class="font-bold pb-4">Workshops</h4>
+            <p class="pb-4">
+              The 6h workshops take place at the same time in groups of 10-12
+              attendees. Each day the groups switch between the teachers, so
+              that we all have a chance to learn every topic. The groups may be
+              selected based on the users experience and topic preferences, to
+              prepare the optimal content for all the students.
+            </p>
+            <h4 class="font-bold pb-4">The price includes</h4>
+            <p class="pb-4">
+              The details of the venue, accomodation conditions and free-time
+              activities will be provided in the upcoming future. That's why we
+              offer early bird tickets for those who decide to trust us with
+              this. However there are some details we can commit to already:
+            </p>
+            <ul class="list-disc pl-4 pb-4">
+              <li>
+                Three daily workshops combined with talks and discussions about
+                different areas of Vue ecosystem
+              </li>
+              <li>
+                Two nights in a 3 star hotel in Eger, Hungary (Friday and
+                Saturday)
+              </li>
+              <li>
+                Additional night on Thursday in Budapest for 3-night ticket
+                owners
+              </li>
+              <li>
+                Full board meal plan. Friday & Saturday: Breakfast, Lunch,
+                Dinner. Sunday: Breakfast and Lunch.
+              </li>
+              <li>
+                Shuttle transport from Budapest to Eger (morning on Friday)
+              </li>
+              <li>
+                Shuttle transport back from Eger to Budapest and the airport
+                (evening on Sunday)
+              </li>
+            </ul>
+            <p class="pb-4">
+              If that's not enough, how about an additional warm-up day in
+              Budapest, one of the most trendiest capitals of Europe?
+            </p>
+            <h4 class="font-bold pb-4">Beginner workshop, Thursday 26th</h4>
+            <p class="pb-4">
+              We'll start with an additional beginner workshop for those who
+              don't feel confident enough in their Vue-fu, to refresh your
+              knowledge and skills.
+            </p>
+            <h4 class="font-bold pb-4">Vue-Budapest meetup, Thursday 26th</h4>
+            <p class="pb-4">
+              After that, we invite everybody to our local Vue-Budapest meetup.
+              It's an extra chance to listen to prominent speakers, meet local
+              developers community and enjoy good time.
+            </p>
+            <h4 class="font-bold pb-4">Afterparty, Sunday 29th</h4>
+            <p class="pb-4">
+              If you don't have to hurry for the flight or to prepare for the
+              work next day, why not spend some final moments in a fancy
+              Budapest venue and celebrate the time we've spent together.
+            </p>
+          </template>
+        </SectionContent>
+      </div>
+    </section>
+
     <section class=" border-b py-8">
       <div class="container mx-auto flex flex-wrap pt-4 pb-12">
         <SectionTitle id="teachers">
