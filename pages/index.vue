@@ -39,7 +39,7 @@
         </SectionTitle>
         <SectionContent>
           <template #title>
-            Intimate learning experience
+            Optimal learning experience
           </template>
           <template #default>
             <p class="pb-4">
@@ -48,8 +48,8 @@
               Team members.
             </p>
             <p>
-              We'll focus on intermediate and advanced level features, from both
-              core Vue libraries and wider ecosystem like Nuxt or Vue-Apollo.
+              We'll focus on intermediate and advanced level knowledge, the new
+              Vue 3 features and the top ecosystem libraries.
             </p>
           </template>
           <template #img>
@@ -62,36 +62,19 @@
           </template>
           <template>
             <p class="pb-4">
-              End it with hand-picked leisure activities, taking advantage of
-              the best of what our destination has to offer.
+              The lessons will be followed by hand-picked leisure activities, to
+              give us a taste of the area we visit.
             </p>
             <p>
-              For the first edition, the Vue and Wine event will take us to
-              Eger, a hungarian vineyard paradise. Let's make unforgettable
-              memories and experience something magic.
+              Our first Vue and Wine event will take place in Eger, a Hungarian
+              vineyard paradise where we can make unforgettable memories and
+              experience something magical together.
             </p>
           </template>
           <template #img>
             <img
               src="~assets/images/undraw_having_fun_iais.svg"
               alt="fun and drinks"
-            />
-          </template>
-        </SectionContent>
-        <SectionContent>
-          <template #title>
-            Three extraordinary days
-          </template>
-          <template>
-            <p>
-              Then put it on repeat! There's still so much knowledge to share
-              and so much fun to have together next day.
-            </p>
-          </template>
-          <template #img>
-            <img
-              src="~assets/images/undraw_in_no_time_6igu.svg"
-              alt="time clock"
             />
           </template>
         </SectionContent>
