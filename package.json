@@ -1,7 +1,7 @@
 {
   "name": "vueandwine-website",
   "version": "1.0.0",
-  "description": "Vue and me: Intimate code camp in a vineyard paradise. New series of events, taking Vue.js workshops to unique spots on the tourist map of Europe.",
+  "description": "Vue and me: An intimate code camp in a vineyard paradise. A new series of events, taking Vue.js workshops to unique spots on the tourist map of Europe.",
   "author": "hello@vueand.me",
   "private": false,
   "scripts": {
