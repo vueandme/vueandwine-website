@@ -4,13 +4,16 @@
 
     <Hero>
       <template #main>
-        <span class="text-dark-green">Vueand.me: <br />Vue and Wine</span><br />
-        <small>Hungary, September 27-29th 2019</small>
+        <p class="text-dark-green">Vue and Wine</p>
+        <p class="text-5xl">Eger, Hungary</p>
+        <p class="text-3xl">September 27-29th 2019</p>
       </template>
       <template #sub>
-        <p class="pb-4">The latest initiative in the Vue.js ecosystem.</p>
-        <p>
-          A series of few days long, cameral events in unique spots on the
+        <p class="pb-4">
+          Intimate code camp in a vineyard paradise.
+        </p>
+        <p class="pb-4">
+          New series of events, taking Vue.js workshops to unique spots on the
           tourist map of Europe.
         </p>
       </template>
