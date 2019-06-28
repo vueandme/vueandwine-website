@@ -46,7 +46,7 @@ export default {
         hid: 'twitter:image',
         name: 'twitter:image',
         content: 'https://vueand.me/logo.jpg'
-      }
+      },
       {
         hid: 'twitter:card',
         name: 'twitter:card',
