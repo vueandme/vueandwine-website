@@ -222,7 +222,7 @@
               nowadays. The workshop focuses on using GraphQL at the frontend
               and specifically in Vue applications.
             </p>
-            <p class="pb-4 py-2 font-bold">We'll learn:</p>
+            <span class="block py-2 font-bold">We'll learn:</span>
             <ul class="list-disc">
               <li>How to work with GraphQL schemas and write mutations</li>
               <li>How to use Apollo client and devtools</li>
@@ -246,25 +246,27 @@
 
         <SectionContent reverse>
           <template #title>
-            Nicolò: Advanced components features
+            Nicolò: Advanced components composition
           </template>
           <template #default>
-            There's much more to writing the components than initially meets the
-            eye. Nicolo takes us on a trip around more advanced features and
-            tricks that we can take advantage of.
+            <p class="pb-4">
+              There's much more to writing the components than initially meets
+              the eye. Nicolo takes us on a trip around more advanced features
+              and tricks that we can take advantage of.
+            </p>
             <span class="block py-2 font-bold">We'll learn:</span>
             <ul class="list-disc">
               <li>
-                Different ways to compose the components (scoped slots, higher
-                order components etc)
+                Different ways to compose the components: scoped slots, higher
+                order components, mixins etc
               </li>
               <li>
-                How to approach different component use cases (layouts, wrappers
-                etc)
+                How to take advantage of the new function API
               </li>
-              <li>How to use common performance optimizations</li>
-              <li>How and when to use render functions</li>
-              <li>How and when to use functional components</li>
+              <li>
+                How and when to use render functions, functional components,
+                portals or fragments
+              </li>
               <li>Best practices regarding components composition</li>
             </ul>
           </template>
@@ -278,22 +280,21 @@
 
         <SectionContent>
           <template #title>
-            Gusto: Big projects with Vue.js
+            Gusto: Testing, performance and developer experience
           </template>
           <template #default>
-            Bigger projects mean bigger requirements. With Gusto, we'll see how
-            to enhance our apps with testing and some of the more advanced
-            features of other core libraries.
+            <p class="pb-4">
+              With great projects come great requirements. We'll see how to
+              enhance our apps with testing, performance optimizations, server
+              side rendering and Nuxt.
+            </p>
             <span class="block py-2 font-bold">We'll learn:</span>
             <ul class="list-disc">
               <li>Basics and best practices of testing Vue components</li>
-              <li>How to enhance Vue with custom plugins</li>
-              <li>How to use vue-router navigation guards</li>
-              <li>How to add internalization to our projects</li>
-              <li>How to write Vuex modules and plugins</li>
+              <li>How to use common performance optimizations</li>
+              <li>How to properly do server side rendering</li>
               <li>
-                Best practices regarding state management and application
-                structure
+                Convention over configuration with Nuxt
               </li>
             </ul>
           </template>
