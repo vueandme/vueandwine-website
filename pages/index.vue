@@ -1,7 +1,5 @@
 <template>
   <div>
-    <Navbar :scrolled="scrolled" />
-
     <Hero>
       <template #main>
         <p class="text-dark-green">Vue and Wine</p>
@@ -18,8 +16,10 @@
         </p>
       </template>
       <template #action>
-        <TicketButton class="mx-auto lg:mx-0 hover:underline bg-white
-        text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg" />
+        <TicketButton
+          class="mx-auto lg:mx-0 hover:underline bg-white
+        text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+        />
       </template>
       <template #right>
         <Countdown />
@@ -51,10 +51,7 @@
             </p>
           </template>
           <template #img>
-            <img
-              src="~assets/images/undraw_teaching_f1cm.svg"
-              alt="teaching"
-            />
+            <img src="~assets/images/undraw_teaching_f1cm.svg" alt="teaching" />
           </template>
         </SectionContent>
         <SectionContent reverse>
@@ -184,7 +181,9 @@
 
         <ActionCard>
           <template #title>
-            <Avatar src="https://avatars0.githubusercontent.com/u/18719025?s=460&v=4">
+            <Avatar
+              src="https://avatars0.githubusercontent.com/u/18719025?s=460&v=4"
+            >
               Natalia Tepluhina (Ukraine)
             </Avatar>
           </template>
@@ -220,12 +219,15 @@
               <img
                 src="~/assets/images/icons8-twitter.svg"
                 alt="twitter-icon"
-              />@N_Tepluhina</a>
+              />@N_Tepluhina</a
+            >
           </template>
         </ActionCard>
         <ActionCard>
           <template #title>
-            <Avatar src="https://avatars2.githubusercontent.com/u/5890166?s=460&v=4">
+            <Avatar
+              src="https://avatars2.githubusercontent.com/u/5890166?s=460&v=4"
+            >
               Nicolò Maria Mezzopera (Italy)
             </Avatar>
           </template>
@@ -250,12 +252,15 @@
               <img
                 src="~/assets/images/icons8-twitter.svg"
                 alt="twitter-icon"
-              />@DonNicoJs</a>
+              />@DonNicoJs</a
+            >
           </template>
         </ActionCard>
         <ActionCard>
           <template #title>
-            <Avatar src="https://avatars0.githubusercontent.com/u/25644507?s=460&v=4">
+            <Avatar
+              src="https://avatars0.githubusercontent.com/u/25644507?s=460&v=4"
+            >
               Dariusz Wędrychowski (Poland)
             </Avatar>
           </template>
@@ -286,7 +291,8 @@
               <img
                 src="~/assets/images/icons8-twitter.svg"
                 alt="twitter-icon"
-              />@gustojs</a>
+              />@gustojs</a
+            >
           </template>
         </ActionCard>
       </div>
@@ -439,66 +445,45 @@
     </section>
 
     <section class="container mx-auto text-center py-6 mb-12">
-      <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
+      <h1
+        class="w-full my-2 text-5xl font-bold leading-tight text-center text-white"
+      >
         Join us on the real Vue adventure!
       </h1>
       <div class="w-full mb-4">
-        <div class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+        <div
+          class="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"
+        ></div>
       </div>
 
       <h3 class="mt-4 mb-8 text-3xl block">
         Vue and Me: Vue and Wine Hungary Edition
       </h3>
 
-      <TicketButton class="mx-auto mt-5 lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg" />
+      <TicketButton
+        class="mx-auto mt-5 lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg"
+      />
     </section>
-    <Footer />
   </div>
 </template>
 
 <script>
 import Hero from '@/components/Hero'
-import Navbar from '@/components/Navbar'
 import Avatar from '@/components/Avatar'
 import SectionTitle from '@/components/SectionTitle'
 import SectionContent from '@/components/SectionContent'
 import ActionCard from '@/components/ActionCard'
-import Footer from '@/components/Footer'
 import Countdown from '@/components/Countdown'
 import TicketButton from '@/components/eventbrite/TicketButton'
 export default {
   components: {
     Hero,
-    Navbar,
     Avatar,
     TicketButton,
     SectionTitle,
     SectionContent,
     ActionCard,
-    Footer,
     Countdown
-  },
-  data() {
-    return {
-      scrolled: false
-    }
-  },
-  beforeDestroy() {
-    if (this._scrollListener) {
-      window.document.removeEventListener('scroll', this.scrollHandler)
-    }
-  },
-  mounted() {
-    this._scrollListener = window.document.addEventListener(
-      'scroll',
-      this.scrollHandler
-    )
-    this.scrollHandler()
-  },
-  methods: {
-    scrollHandler() {
-      this.scrolled = window.scrollY > 10
-    }
   }
 }
 </script>
