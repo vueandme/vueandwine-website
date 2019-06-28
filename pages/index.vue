@@ -268,10 +268,10 @@
           </template>
           <template>
             <p class="pb-4">
-              Gusto, because that's how he's known among other developers, is a
-              Vue.js Core Team member taking care of the community around the
-              framework. As an admin of the official Vue.js chat, he has
-              answered countless questions from Vue users.
+              Popularily known as Gusto, Darek is a Vue.js Core Team member
+              taking care of the community around the framework. As an admin of
+              the official Vue.js chat, he has answered countless questions from
+              Vue users.
             </p>
             <p class="pb-4">
               As a part of his Tour de Vue trip, he's meeting with Vue
@@ -317,7 +317,7 @@
               and specifically in Vue applications.
             </p>
             <span class="block py-2 font-bold">We'll learn:</span>
-            <ul class="list-disc">
+            <ul class="list-disc pl-4">
               <li>How to work with GraphQL schemas and write mutations</li>
               <li>How to use Apollo client and devtools</li>
               <li>How to setup, configure and use Vue</li>
@@ -349,7 +349,7 @@
               and tricks that we can take advantage of.
             </p>
             <span class="block py-2 font-bold">We'll learn:</span>
-            <ul class="list-disc">
+            <ul class="list-disc pl-4">
               <li>
                 Different ways to compose the components: scoped slots, higher
                 order components, mixins etc
@@ -383,7 +383,7 @@
               side rendering and Nuxt.
             </p>
             <span class="block py-2 font-bold">We'll learn:</span>
-            <ul class="list-disc">
+            <ul class="list-disc pl-4">
               <li>Basics and best practices of testing Vue components</li>
               <li>How to use common performance optimizations</li>
               <li>How to properly do server side rendering</li>
