@@ -48,15 +48,15 @@
         <ul
           class="list-reset lg:flex justify-end flex-1 items-center mb-2 lg:mb-0"
         >
-          <li class="mr-3 hidden">
+          <li class="mr-3">
             <nuxt-link
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              to="/#teachers"
+              to="#teachers"
             >
               Teachers
             </nuxt-link>
           </li>
-          <li class="mr-3 hidden">
+          <li class="mr-3">
             <nuxt-link
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               to="/#workshops"
