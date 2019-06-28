@@ -1,7 +1,7 @@
 <template>
   <nav
     :class="{
-      'fixed w-full z-30 top-0 text-white': true,
+      'fixed w-full z-30 top-0 text-white gradient': true,
       'bg-white shadow': scrolled
     }"
   >
