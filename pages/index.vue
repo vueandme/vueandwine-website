@@ -96,15 +96,15 @@
           <h4 class="font-bold pb-4">The concept</h4>
           <template>
             <p class="pb-4">
-              Vue and Me is a series of events in each the attendees visit a
-              specific region in Europe together, to take part in both Vue
-              workshops and side activities. In opposite to big conferences, we
-              meet in a limited group of 30-40 developers, to provide more
-              intimate experience, where we can all get to know and support each
-              other.
+              Vue and Me is a series of events in which the attendees take part
+              in both Vue workshops and side activities. The concurrent editions
+              take place in different places around Europe. In opposite to big
+              conferences, we meet in a limited group of 30-40 developers, to
+              provide a more intimate experience, where we can all get to know
+              and support each other.
             </p>
             <p class="pb-4">
-              It's also a consulting opportunity. We've all got expertize on
+              It's also a consulting opportunity. We've all got expertize in
               different areas, so let's take advantage of it. Ask any questions
               you want, show us what you work on, discuss your ideas with both
               the teachers and other attendees.
@@ -112,17 +112,17 @@
             <h4 class="font-bold pb-4">Workshops</h4>
             <p class="pb-4">
               The 6h workshops take place at the same time in groups of 10-12
-              attendees. Each day the groups switch between the teachers, so
-              that we all have a chance to learn every topic. The groups may be
-              selected based on the users experience and topic preferences, to
+              attendees. Each day the groups switch between the teachers so that
+              we all have a chance to learn every topic. The groups may be
+              selected based on the users' experience and topic preferences, to
               prepare the optimal content for all the students.
             </p>
             <h4 class="font-bold pb-4">The price includes</h4>
             <p class="pb-4">
-              The details of the venue, accomodation conditions and free-time
+              The details of the venue, accommodation conditions and free-time
               activities will be provided in the upcoming future. That's why we
               offer early bird tickets for those who decide to trust us with
-              this. However there are some details we can commit to already:
+              this. However, there are some details we can commit to already:
             </p>
             <ul class="list-disc pl-4 pb-4">
               <li>
@@ -130,8 +130,7 @@
                 different areas of Vue ecosystem
               </li>
               <li>
-                Two nights in a 3 star hotel in Eger, Hungary (Friday and
-                Saturday)
+                Two nights in a hotel in Eger, Hungary (Friday and Saturday)
               </li>
               <li>
                 Additional night on Thursday in Budapest for 3-night ticket
@@ -151,7 +150,7 @@
             </ul>
             <p class="pb-4">
               If that's not enough, how about an additional warm-up day in
-              Budapest, one of the most trendiest capitals of Europe?
+              Budapest, one of the most trendy capitals of Europe?
             </p>
             <h4 class="font-bold pb-4">Beginner workshop, Thursday 26th</h4>
             <p class="pb-4">
@@ -163,13 +162,13 @@
             <p class="pb-4">
               After that, we invite everybody to the local Vue-Budapest meetup.
               It's an extra chance to listen to prominent speakers, meet local
-              developers community and enjoy good time.
+              developers community and enjoy a good time.
             </p>
             <h4 class="font-bold pb-4">Afterparty, Sunday 29th</h4>
             <p class="pb-4">
-              If you don't have to hurry for the flight or to prepare for the
-              work next day, why not spend some final moments in a fancy
-              Budapest venue and celebrate the time we've spent together.
+              If you don't have to hurry for the flight or to prepare for work
+              the next day, why not spend some final moments in a fancy Budapest
+              venue and celebrate the time we've spent together.
             </p>
           </template>
         </SectionContent>
