@@ -161,7 +161,7 @@
             </p>
             <h4 class="font-bold pb-4">Vue-Budapest meetup, Thursday 26th</h4>
             <p class="pb-4">
-              After that, we invite everybody to our local Vue-Budapest meetup.
+              After that, we invite everybody to the local Vue-Budapest meetup.
               It's an extra chance to listen to prominent speakers, meet local
               developers community and enjoy good time.
             </p>
