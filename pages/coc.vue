@@ -7,7 +7,7 @@
         </SectionTitle>
         <SectionContent fullsize>
           <template #default>
-            <p class="pb-4">
+            <p class="pb-8">
               All attendees, teachers and other staff members at our events are
               required to agree with the following code of conduct. Organisers
               will enforce this code throughout the event. We expect cooperation
@@ -18,7 +18,7 @@
               The Quick Version
             </h3>
 
-            <p class="pb-4">
+            <p class="pb-8">
               Our event is dedicated to providing a harassment-free conference
               experience for everyone, regardless of gender, gender identity and
               expression, age, sexual orientation, disability, physical

@@ -1,24 +1,25 @@
 <template>
   <nav
     :class="{
-      'fixed w-full z-30 top-0 text-white gradient': true,
-      'bg-white shadow': scrolled
+      'fixed w-full z-30 top-0 text-white': true,
+      'bg-white shadow': scrolled,
+      gradient: !scrolled
     }"
   >
     <div
       class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
     >
       <div class="pl-4 flex items-center">
-        <a
+        <nuxt-link
           :class="{
             'no-underline hover:no-underline font-bold text-2xl lg:text-4xl': true,
             'text-white': !scrolled,
             'text-gray-800': scrolled
           }"
-          href="#"
+          to="/"
         >
           <span class="text-dark-green">Vue And Me:</span> Vue and Wine
-        </a>
+        </nuxt-link>
       </div>
 
       <div class="block lg:hidden pr-4">
@@ -47,21 +48,21 @@
         <ul
           class="list-reset lg:flex justify-end flex-1 items-center mb-2 lg:mb-0"
         >
-          <li class="mr-3">
-            <a
+          <li class="mr-3 hidden">
+            <nuxt-link
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="#teachers"
+              to="/#teachers"
             >
               Teachers
-            </a>
+            </nuxt-link>
           </li>
-          <li class="mr-3">
-            <a
+          <li class="mr-3 hidden">
+            <nuxt-link
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="#workshops"
+              to="/#workshops"
             >
               Workshops
-            </a>
+            </nuxt-link>
           </li>
         </ul>
         <TicketButton
