@@ -12,13 +12,13 @@
       <div class="pl-4 flex items-center">
         <nuxt-link
           :class="{
-            'no-underline hover:no-underline font-bold text-2xl lg:text-4xl': true,
+            'no-underline hover:no-underline font-bold text-2xl lg:text-3xl': true,
             'text-white': !scrolled,
             'text-gray-800': scrolled
           }"
           to="/"
         >
-          <span class="text-dark-green">Vue And Me:</span> Vue and Wine
+          Vue And Me
         </nuxt-link>
       </div>
 

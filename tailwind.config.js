@@ -10,7 +10,8 @@ module.exports = {
       colors: {
         'dark-green': '#35495e',
         'vue-green': '#42b883',
-        'wine-red': '#ef3a50'
+        'wine-red': '#ef3a50',
+        'light-green': '#D0EDE0'
       }
     }
   },
