@@ -182,7 +182,7 @@
           </template>
           <template>
             <p class="pb-4">
-              One of the masterminds from Budapest-based company Pulilab,
+              One of the senior developers from Budapest-based company Pulilab,
               standing behind the VuePeople.org project and the successful
               Vue-Budapest meetups.
             </p>
@@ -192,8 +192,8 @@
               him talking on VueDay conference in Verona, Italy.
             </p>
             <p class="pb-4">
-              Look around the town and you may find him walking his border
-              collie dog, Colly, who by now has become a Vue.js expert himself.
+              Look around the town and you may find him walking his Border
+              Collie, Mr. Colly, who by now has become a Vue.js expert himself.
             </p>
           </template>
           <template #actions>
@@ -291,13 +291,13 @@
 
         <SectionContent reverse>
           <template #title>
-            Nicolò: Advanced components composition
+            Nicolò: Advanced components composition and testing
           </template>
           <template #default>
             <p class="pb-4 font-bold">Saturday or Sunday, 6h, 150 euro</p>
             <p class="pb-4">
               There's much more to writing the components than initially meets
-              the eye. Nicolo takes us on a trip around more advanced features
+              the eye. Nicolò takes us on a trip around more advanced features
               and tricks that we can take advantage of.
             </p>
             <span class="block py-2 font-bold">We'll learn:</span>
@@ -314,6 +314,7 @@
                 portals or fragments
               </li>
               <li>Best practices regarding components composition</li>
+              <li>How to test efficently our components</li>
             </ul>
           </template>
           <template #img>
