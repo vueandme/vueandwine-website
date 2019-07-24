@@ -7,7 +7,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'Vue and Me: Vue and Wine',
+    title: 'Vue and Me: Budapest edition',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -15,7 +15,7 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Vue and Me: Vue and Wine'
+        content: 'Vue and Me: Budapest edition'
       },
       {
         hid: 'og:description',
@@ -35,7 +35,7 @@ export default {
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'Vue and Me: Vue and Wine'
+        content: 'Vue and Me: Budapest edition'
       },
       {
         hid: 'twitter:description',
