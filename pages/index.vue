@@ -44,8 +44,8 @@
               Team members.
             </p>
             <p>
-              For our first event, we have beginner, advanced and GraphQL
-              workshops.
+              On our first event, we have beginner, advanced and GraphQL
+              workshops for you to choose from.
             </p>
           </template>
           <template #img>
@@ -94,23 +94,26 @@
             <p class="pb-4">
               Vue and Me is a series of events in which the attendees take part
               in both Vue workshops and side activities. The concurrent editions
-              take place in different places around Europe. In opposite to big
-              conferences, we meet in a limited group of 30-40 developers, to
-              provide a more intimate experience, where we can all get to know
-              and support each other.
+              take place in different places around Europe and have different
+              themes. In opposite to big conferences, we meet in a limited group
+              of 30-40 developers, to provide a more intimate experience, where
+              we can all get to know and support each other.
             </p>
             <h3 class="font-bold pb-4 text-xl">
               Vue-Budapest meetup, Friday 27th
             </h3>
             <p class="pb-4">
-              As an appetizer, we invite everybody to the local Vue-Budapest
-              meetup. It's an extra chance to listen to prominent speakers, meet
-              local developers community and enjoy a good time.
+              As an appetizer, we invite everybody to the Vue-Budapest meetup.
+              It's an extra chance to listen to prominent speakers, meet local
+              developers community and enjoy a good time.
             </p>
-            <h3 class="font-bold pb-4 text-xl">Day One, Saturday 28th</h3>
+            <h3 class="font-bold pb-4 text-xl">
+              Workshop Day One, Saturday 28th
+            </h3>
             <p class="pb-4">
-              Take part in one of our workshops - beginner, advanced or GraphQL.
-              Each course lasts 6 hours and in a group of 10-12 attendees.
+              Take part in one of our workshops - be it beginner, advanced or
+              GraphQL. Each course lasts 6 hours and the groups are limited to
+              10-12 attendees.
             </p>
             <h3 class="font-bold pb-4 text-xl">Evening event - Vue and Wine</h3>
             <p class="pb-4">
@@ -118,10 +121,12 @@
               separately. We'll send out the details to the attendees at a later
               time.
             </p>
-            <h3 class="font-bold pb-4 text-xl">Day Two, Sunday 29th</h3>
+            <h3 class="font-bold pb-4 text-xl">
+              Workshop Day Two, Sunday 29th
+            </h3>
             <p class="pb-4">
-              Again, we'll provide all three workshops, so take advantage of it
-              and choose two if you can!
+              Again, we'll provide all three workshops for you, so take
+              advantage of it and choose two if you can!
             </p>
           </template>
         </SectionContent>
@@ -258,75 +263,6 @@
 
         <SectionContent>
           <template #title>
-            Natalia: GraphQL with Vue-Apollo
-          </template>
-          <template #default>
-            <p class="pb-4 font-bold">Saturday or Sunday, 6h, 150 euro</p>
-            <p class="pb-4">
-              GraphQL is one of the most trendy technologies in the webdev world
-              nowadays. The workshop focuses on using GraphQL at the frontend
-              and specifically in Vue applications.
-            </p>
-            <span class="block py-2 font-bold">We'll learn:</span>
-            <ul class="list-disc pl-4">
-              <li>How to work with GraphQL schemas and write mutations</li>
-              <li>How to use Apollo client and devtools</li>
-              <li>How to setup, configure and use Vue</li>
-              <li>Apollo integration</li>
-              <li>How to use Apollo for Vue state management</li>
-              <li>
-                Best practices (loading and error states, naming, composing
-                schema etc)
-              </li>
-              <li>A selection of more advanced features</li>
-            </ul>
-          </template>
-          <template #img>
-            <img
-              src="~assets/images/undraw_setup_wizard_r6mr.svg"
-              alt="setup wizard"
-            />
-          </template>
-        </SectionContent>
-
-        <SectionContent reverse>
-          <template #title>
-            Nicolò: Advanced components composition and testing
-          </template>
-          <template #default>
-            <p class="pb-4 font-bold">Saturday or Sunday, 6h, 150 euro</p>
-            <p class="pb-4">
-              There's much more to writing the components than initially meets
-              the eye. Nicolò takes us on a trip around more advanced features
-              and tricks that we can take advantage of.
-            </p>
-            <span class="block py-2 font-bold">We'll learn:</span>
-            <ul class="list-disc pl-4">
-              <li>
-                Different ways to compose the components: scoped slots, higher
-                order components, mixins etc
-              </li>
-              <li>
-                How to take advantage of the new function API
-              </li>
-              <li>
-                How and when to use render functions, functional components,
-                portals or fragments
-              </li>
-              <li>Best practices regarding components composition</li>
-              <li>How to test efficently our components</li>
-            </ul>
-          </template>
-          <template #img>
-            <img
-              src="~assets/images/undraw_deliveries_131a.svg"
-              alt="package and deliveries"
-            />
-          </template>
-        </SectionContent>
-
-        <SectionContent>
-          <template #title>
             Gusto: My first Vue.js application
           </template>
           <template #default>
@@ -354,6 +290,75 @@
             <img
               src="~assets/images/undraw_business_analytics_l92d.svg"
               alt="business analytics"
+            />
+          </template>
+        </SectionContent>
+
+        <SectionContent reverse>
+          <template #title>
+            Nicolò: Advanced components composition and testing
+          </template>
+          <template #default>
+            <p class="pb-4 font-bold">Saturday or Sunday, 6h, 150 euro</p>
+            <p class="pb-4">
+              There's much more to writing the components than initially meets
+              the eye. Nicolò takes us on a trip around more advanced features
+              and tricks that we can take advantage of.
+            </p>
+            <span class="block py-2 font-bold">We'll learn:</span>
+            <ul class="list-disc pl-4">
+              <li>
+                Different ways of component composition: scoped slots, higher
+                order components, mixins and more.
+              </li>
+              <li>
+                How to take advantage of the new function API
+              </li>
+              <li>
+                How and when to use render functions, functional components,
+                portals or fragments
+              </li>
+              <li>Best practices regarding components composition</li>
+              <li>How to efficently test our components</li>
+            </ul>
+          </template>
+          <template #img>
+            <img
+              src="~assets/images/undraw_deliveries_131a.svg"
+              alt="package and deliveries"
+            />
+          </template>
+        </SectionContent>
+
+        <SectionContent>
+          <template #title>
+            Natalia: GraphQL with Vue-Apollo
+          </template>
+          <template #default>
+            <p class="pb-4 font-bold">Saturday or Sunday, 6h, 150 euro</p>
+            <p class="pb-4">
+              GraphQL is one of the most trendy technologies in the webdev world
+              nowadays. The workshop focuses on using GraphQL at the frontend
+              and specifically in Vue applications.
+            </p>
+            <span class="block py-2 font-bold">We'll learn:</span>
+            <ul class="list-disc pl-4">
+              <li>How to work with GraphQL schemas and write mutations</li>
+              <li>How to use Apollo client and devtools</li>
+              <li>How to setup, configure and use Vue</li>
+              <li>Apollo integration</li>
+              <li>How to use Apollo for Vue state management</li>
+              <li>
+                Best practices (loading and error states, naming, composing
+                schema etc)
+              </li>
+              <li>A selection of more advanced features</li>
+            </ul>
+          </template>
+          <template #img>
+            <img
+              src="~assets/images/undraw_setup_wizard_r6mr.svg"
+              alt="setup wizard"
             />
           </template>
         </SectionContent>
