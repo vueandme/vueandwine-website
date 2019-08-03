@@ -3,8 +3,11 @@
     <div
       class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow"
     >
-      <div class="w-full font-bold text-xl text-gray-800 px-6 pt-6">
+      <div class="w-full font-bold text-xl text-gray-800 px-6 pt-6 text-center">
         <slot name="title"></slot>
+      </div>
+      <div class="w-full px-6 py-4 text-l flex flex-col items-center">
+        <slot name="subtitle"> </slot>
       </div>
       <p class="text-gray-800 text-base px-6 mb-5 mt-5">
         <slot />
