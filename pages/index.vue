@@ -83,52 +83,49 @@
           Budapest Edition
         </SectionTitle>
         <SectionContent fullsize>
-          <h4 class="text-2xl pb-4 text-center">
-            Follow us on
-            <strong><a href="https://twitter/vueandme">Twitter</a></strong> for
-            the latest updates!
-          </h4>
-
           <h4 class="font-bold pb-4 text-xl">About the series</h4>
-          <template>
-            <p class="pb-4">
-              Vue and Me is a series of events in which the attendees take part
-              in both Vue workshops and side activities. The concurrent editions
-              take place in different places around Europe and have different
-              themes. In opposite to big conferences, we meet in a limited group
-              of 30-40 developers, to provide a more intimate experience, where
-              we can all get to know and support each other.
-            </p>
-            <h3 class="font-bold pb-4 text-xl">
-              Vue-Budapest meetup, Friday 27th
-            </h3>
-            <p class="pb-4">
-              As an appetizer, we invite everybody to the Vue-Budapest meetup.
-              It's an extra chance to listen to prominent speakers, meet local
-              developers community and enjoy a good time.
-            </p>
-            <h3 class="font-bold pb-4 text-xl">
-              Workshop Day One, Saturday 28th
-            </h3>
-            <p class="pb-4">
-              Take part in one of our workshops - be it beginner, advanced or
-              GraphQL. Each course lasts 6 hours and the groups are limited to
-              10-12 attendees.
-            </p>
-            <h3 class="font-bold pb-4 text-xl">Evening event - Vue and Wine</h3>
-            <p class="pb-4">
-              This optional event takes place on Day One and will be paid
-              separately. We'll send out the details to the attendees at a later
-              time.
-            </p>
-            <h3 class="font-bold pb-4 text-xl">
-              Workshop Day Two, Sunday 29th
-            </h3>
-            <p class="pb-4">
-              Again, we'll provide all three workshops for you, so take
-              advantage of it and choose two if you can!
-            </p>
-          </template>
+          <p class="pb-4">
+            Vue and Me is a series of events in which the attendees take part in
+            both Vue workshops and side activities. The concurrent editions take
+            place in different places around Europe and have different themes.
+            In opposite to big conferences, we meet in a limited group of 30-40
+            developers, to provide a more intimate experience, where we can all
+            get to know and support each other.
+          </p>
+          <h3 class="font-bold pb-4 text-xl">
+            Vue-Budapest meetup, Friday 27th
+          </h3>
+          <p class="pb-4">
+            As an appetizer, we invite everybody to the Vue-Budapest meetup.
+            It's an extra chance to listen to prominent speakers, meet local
+            developers community and enjoy a good time.
+          </p>
+          <h3 class="font-bold pb-4 text-xl">
+            Workshop Day One, Saturday 28th
+          </h3>
+          <p class="pb-4">
+            Take part in one of our workshops - be it beginner, advanced or
+            GraphQL. Each course lasts 6 hours and the groups are limited to
+            10-12 attendees.
+          </p>
+          <h3 class="font-bold pb-4 text-xl">Evening event - Vue and Wine</h3>
+          <p class="pb-4">
+            This optional event takes place on Day One and will be paid
+            separately. We'll send out the details to the attendees at a later
+            time.
+          </p>
+          <h3 class="font-bold pb-4 text-xl">
+            Workshop Day Two, Sunday 29th
+          </h3>
+          <p class="pb-4">
+            Again, we'll provide all three workshops for you, so take advantage
+            of it and choose two if you can!
+          </p>
+          <h4 class="text-2xl pb-4 mt-8 text-center">
+            Follow us on
+            <strong><a href="https://twitter.com/vueandme">Twitter</a></strong>
+            for the latest updates!
+          </h4>
         </SectionContent>
       </div>
     </section>
@@ -147,11 +144,18 @@
               Natalia Tepluhina (Ukraine)
             </Avatar>
           </template>
+          <template #subtitle>
+            <span class="rounded gradient text-black p-1">
+              Senior front-end engineer in Gitlab
+            </span>
+            <span class="rounded gradient text-black p-1 mt-2">
+              Vue.js Core Team member</span
+            >
+          </template>
           <template>
             <p class="pb-4">
-              Natalia is a senior front-end engineer at Gitlab and a Vue.js Core
-              Team member, where she focuses on documentation and user
-              experience.
+              Natalia may be the latest addition to Vue.js Core Team, but she's
+              one of the brightest stars in the community right now.
             </p>
             <p class="pb-4">
               Thanks to hard work, clarity and interesting choice of non-trivial
@@ -185,16 +189,24 @@
               Nicolò Maria Mezzopera (Italy)
             </Avatar>
           </template>
+          <template #subtitle>
+            <span class="rounded gradient text-black p-1">
+              Senior front-end engineer in Pulilab
+            </span>
+            <span class="rounded gradient text-black p-1 mt-2">
+              Vue2Leaflet maintainer
+            </span>
+          </template>
           <template>
             <p class="pb-4">
-              One of the senior developers from Budapest-based company Pulilab,
-              standing behind the VuePeople.org project and the successful
-              Vue-Budapest meetups.
+              Nicolò is the mastermind behind the VuePeople.org project and the
+              successful Vue-Budapest meetups. Lately you could have seen him
+              talking on VueDay conference in Verona, Italy.
             </p>
             <p class="pb-4">
-              Nico is also the maintainer of Vue-Leaflet integration, a
-              love-deserving map solution for Vue.js. Lately you could have seen
-              him talking on VueDay conference in Verona, Italy.
+              Thanks to his experience, he's one of the experts on using
+              external libraries with Vue.js, but you can learn much more from
+              him.
             </p>
             <p class="pb-4">
               Look around the town and you may find him walking his Border
@@ -222,10 +234,18 @@
               Dariusz Wędrychowski (Poland)
             </Avatar>
           </template>
+          <template #subtitle>
+            <span class="rounded gradient text-black p-1">
+              Admin of the official Vue.js chat
+            </span>
+            <span class="rounded gradient text-black p-1 mt-2">
+              Vue.js Core Team member
+            </span>
+          </template>
           <template>
             <p class="pb-4">
-              Popularily known as Gusto, Darek is a Vue.js Core Team member and
-              an admin of the official Vue.js chat.
+              Popularily known as Gusto, Darek is one of the Core Team members
+              taking care of the Vue.js community.
             </p>
             <p class="pb-4">
               As a part of his Tour de Vue trip, he's meeting with Vue
@@ -235,8 +255,8 @@
             </p>
             <p class="pb-4">
               Other than coding, his main passion is writing short stories. Be
-              sure to ask him about his pet project - a roleplaying platform
-              with full accessibility support.
+              sure to ask him about his pet project - a text-based roleplaying
+              platform.
             </p>
           </template>
           <template #actions>
