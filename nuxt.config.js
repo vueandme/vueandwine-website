@@ -7,7 +7,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: 'Vue and Me: Budapest edition',
+    title: 'Vueand.me: Budapest edition',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -15,7 +15,7 @@ export default {
       {
         hid: 'og:title',
         name: 'og:title',
-        content: 'Vue and Me: Budapest edition'
+        content: 'Vueand.me: Budapest edition'
       },
       {
         hid: 'og:description',
@@ -25,7 +25,7 @@ export default {
       {
         hid: 'og:image',
         name: 'og:image',
-        content: 'https://vueand.me/logo.jpg'
+        content: 'https://vueand.me/banner.jpg'
       },
       {
         hid: 'og:url',
@@ -35,7 +35,7 @@ export default {
       {
         hid: 'twitter:title',
         name: 'twitter:title',
-        content: 'Vue and Me: Budapest edition'
+        content: 'Vueand.me: Budapest edition'
       },
       {
         hid: 'twitter:description',
@@ -45,7 +45,7 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://vueand.me/logo.jpg'
+        content: 'https://vueand.me/banner.jpg'
       },
       {
         hid: 'twitter:card',

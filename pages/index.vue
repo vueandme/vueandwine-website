@@ -10,7 +10,7 @@
       </template>
 
       <template #main>
-        <p class="text-vue-green">Vue and Me</p>
+        <p class="text-vue-green">Vueand.me</p>
         <p class="text-5xl">Budapest Edition</p>
         <p class="text-2xl">September 28-29th 2019</p>
       </template>
@@ -85,7 +85,7 @@
         <SectionContent fullsize>
           <h4 class="font-bold pb-4 text-xl">About the series</h4>
           <p class="pb-4">
-            Vue and Me is a series of events in which the attendees take part in
+            Vueand.me is a series of events in which the attendees take part in
             both Vue workshops and side activities. The concurrent editions take
             place in different places around Europe and have different themes.
             In opposite to big conferences, we meet in a limited group of 30-40
