@@ -398,7 +398,7 @@
       </div>
 
       <h3 class="mt-4 mb-8 text-3xl block">
-        Vue and Me: Budapest Edition
+        Vueand.me: Budapest Edition
       </h3>
 
       <TicketButton
