@@ -18,7 +18,7 @@
           }"
           to="/"
         >
-          Vue And Me
+          Vueand.me
         </nuxt-link>
       </div>
 

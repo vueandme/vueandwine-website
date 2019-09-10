@@ -10,7 +10,7 @@
       </template>
 
       <template #main>
-        <p class="text-vue-green">Vue and Me</p>
+        <p class="text-vue-green">Vueand.me</p>
         <p class="text-5xl">Budapest Edition</p>
         <p class="text-2xl">September 28-29th 2019</p>
       </template>
@@ -85,7 +85,7 @@
         <SectionContent fullsize>
           <h4 class="font-bold pb-4 text-xl">About the series</h4>
           <p class="pb-4">
-            Vue and Me is a series of events in which the attendees take part in
+            Vueand.me is a series of events in which the attendees take part in
             both Vue workshops and side activities. The concurrent editions take
             place in different places around Europe and have different themes.
             In opposite to big conferences, we meet in a limited group of 30-40
@@ -154,9 +154,8 @@
           </template>
           <template>
             <p class="pb-4">
-              Natalia is a senior front-end engineer at Gitlab and a Vue.js Core
-              Team member, where she focuses on documentation and user
-              experience.
+              Natalia may be the latest addition to Vue.js Core Team, but she's
+              one of the brightest stars in the community right now.
             </p>
             <p class="pb-4">
               Thanks to hard work, clarity and interesting choice of non-trivial
@@ -200,14 +199,14 @@
           </template>
           <template>
             <p class="pb-4">
-              One of the senior developers from Budapest-based company Pulilab,
-              standing behind the VuePeople.org project and the successful
-              Vue-Budapest meetups.
+              Nicolò is the mastermind behind the VuePeople.org project and the
+              successful Vue-Budapest meetups. Lately you could have seen him
+              talking on VueDay conference in Verona, Italy.
             </p>
             <p class="pb-4">
-              Nico is also the maintainer of Vue-Leaflet integration, a
-              love-deserving map solution for Vue.js. Lately you could have seen
-              him talking on VueDay conference in Verona, Italy.
+              Thanks to his experience, he's one of the experts on using
+              external libraries with Vue.js, but you can learn much more from
+              him.
             </p>
             <p class="pb-4">
               Look around the town and you may find him walking his Border
@@ -245,8 +244,8 @@
           </template>
           <template>
             <p class="pb-4">
-              Popularily known as Gusto, Darek is a Vue.js Core Team member and
-              an admin of the official Vue.js chat.
+              Popularily known as Gusto, Darek is one of the Core Team members
+              taking care of the Vue.js community.
             </p>
             <p class="pb-4">
               As a part of his Tour de Vue trip, he's meeting with Vue
@@ -256,8 +255,8 @@
             </p>
             <p class="pb-4">
               Other than coding, his main passion is writing short stories. Be
-              sure to ask him about his pet project - a roleplaying platform
-              with full accessibility support.
+              sure to ask him about his pet project - a text-based roleplaying
+              platform.
             </p>
           </template>
           <template #actions>
@@ -399,7 +398,7 @@
       </div>
 
       <h3 class="mt-4 mb-8 text-3xl block">
-        Vue and Me: Budapest Edition
+        Vueand.me: Budapest Edition
       </h3>
 
       <TicketButton
