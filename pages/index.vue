@@ -191,7 +191,7 @@
           </template>
           <template #subtitle>
             <span class="rounded gradient text-black p-1">
-              Senior front-end engineer in Pulilab
+              Senior front-end engineer in GitLab
             </span>
             <span class="rounded gradient text-black p-1 mt-2">
               Vue2Leaflet maintainer
