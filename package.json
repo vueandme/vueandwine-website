@@ -13,7 +13,7 @@
     "precommit": "yarn run lint"
   },
   "dependencies": {
-    "cross-env": "^5.2.1",
+    "cross-env": "^6.0.2",
     "nuxt": "^2.9.2",
     "vue-awesome-countdown": "^1.0.16"
   },
